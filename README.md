@@ -110,3 +110,21 @@ git commit -m "agrego navbar"
 - Al realizar un cambio en un archivo y confirmarlo, se crea un snapshot del estado actual del proyecto. Esto te permite volver a este estado si es necesario.
 
 - Al subir la rama al remoto, se hace que los cambios estén disponibles para otros colaboradores que puedan trabajar en el mismo proyecto.
+
+#### 5. Crear PR para mezclar los cambios de feature1 a master (desde Android Studio o desde consola). 
+
+#### Desde Android Studio:
+- Abre tu proyecto en Android Studio.
+- Ve a VCS > Git > Remoto > Ver en GitHub.
+- Se abrirá tu repositorio en GitHub en un navegador web.
+- Haz clic en la pestaña "Pull requests".
+- Haz clic en el botón "New pull request".
+- Selecciona la rama "feature1" como rama base.
+- Selecciona la rama "main" como rama de destino.
+- Escribe un título y una descripción para tu PR.
+- Haz clic en "Create pull request".
+
+#### Ventajas:
+- Una PR (Pull Request) es una solicitud para que los cambios de una rama se fusionen en otra rama. Esto permite a los colaboradores revisar los cambios y proporcionar comentarios antes de que se fusionen en la rama principal.
+- Al crear una PR, se comparan los cambios de la rama "feature1" con la rama principal. GitHub mostrará una vista de las diferencias entre las dos ramas. Los colaboradores pueden revisar estas diferencias, agregar comentarios y aprobar o rechazar la PR.
+- Si se aprueba la PR, los cambios de la rama "feature1" se fusionarán en la rama principal.
