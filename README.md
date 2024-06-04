@@ -128,3 +128,19 @@ git commit -m "agrego navbar"
 - Una PR (Pull Request) es una solicitud para que los cambios de una rama se fusionen en otra rama. Esto permite a los colaboradores revisar los cambios y proporcionar comentarios antes de que se fusionen en la rama principal.
 - Al crear una PR, se comparan los cambios de la rama "feature1" con la rama principal. GitHub mostrará una vista de las diferencias entre las dos ramas. Los colaboradores pueden revisar estas diferencias, agregar comentarios y aprobar o rechazar la PR.
 - Si se aprueba la PR, los cambios de la rama "feature1" se fusionarán en la rama principal.
+
+#### 6. Aceptar el PR y hacer el merge. 
+
+- Ve a tu repositorio en GitHub.
+- Haz clic en la pestaña "Pull requests".
+- Busca y selecciona el PR que deseas aceptar y fusionar.
+- Haz clic en el botón "Review changes".
+- Revisa los cambios y asegúrate de que estás satisfecho con ellos.
+- Haz clic en el botón "Approve".
+- Escribe un mensaje de comentario.
+- Haz clic en el botón "Merge pull request" y "Create a new commit".
+- Haz clic en el botón "Confirm merge".
+
+#### Ventajas:
+- Al aceptar un PR, indicas que has revisado los cambios y estás de acuerdo con que se fusionen en la rama principal.
+- Al fusionar un PR, se integran los cambios de la rama de origen (en este caso, "feature1") en la rama principal.
