@@ -65,3 +65,18 @@ git commit -m "agrego navbar"
 *Puedes usar el comando git status para ver qué archivos se han modificado y cuáles no están siendo rastreados por Git.*
 
 *Puedes usar el comando git log para ver el historial de commits de tu repositorio.*
+
+
+#### 3. Configurar el remoto y empujar los cambios si IDE ya tiene la configuración de GitHub, en caso contrario, agregar el token necesario. 
+
+#### Abre tu proyecto en Android Studio.
+- Ve a VCS > Git > Remoto > Agregar remoto.
+- Introduce la URL del repositorio de GitHub que has creado.
+
+#### Dale un nombre al control remoto
+- Haz clic en "Aceptar".
+- Para subir los cambios a GitHub, ve a VCS > Git > Push.
+- Selecciona el control remoto que has creado.
+- Selecciona la rama a la que quieres subir los cambios.
+- Escribe un Commit y Push.
+
