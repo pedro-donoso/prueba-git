@@ -1,2 +1,1 @@
-# prueba-git
-prueba descriptiva de comandos git
+# login10
