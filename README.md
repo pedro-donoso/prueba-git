@@ -1,4 +1,4 @@
-#### NOTA: Hago esta prueba de forma explicativa inicialmente, debido a que mi laptop es de 4 gb y colapsó en varias ocasiones al momento de correr la app, el próximo mes me traerán un equipo con las condiciones adecuadas 32gb 12gen para rehacer la prueba, hago esto para cumplir y subir algo a la plataforma dentro del plazo, luego la realizaré en Android Studio cuando tenga las condiciones.
+*NOTA: Hago esta prueba de forma explicativa inicialmente, debido a que mi laptop es de 4 gb y colapsó en varias ocasiones al momento de correr la app, el próximo mes me traerán un equipo con las condiciones adecuadas 32gb 12gen para rehacer la prueba, hago esto para cumplir y subir algo a la plataforma dentro del plazo, luego la realizaré en Android Studio cuando tenga las condiciones.*
 
 #### 1. Crear o utilizar algún proyecto existente con Android Studio, para luego crear repositorio en GitHub. 
 
@@ -29,3 +29,39 @@ Haz clic en "Aceptar".
 - Selecciona el control remoto que has creado.
 - Selecciona la rama a la que quieres subir los cambios.
 - Escribe un Commit y haz clic en "Push".
+
+#### 2. Inicializar el sistema de control de versiones con Git, para después agregar y confirmar los cambios. 
+
+#### Inicializar Git
+- Abre tu terminal o símbolo del sistema.
+- Navega hasta el directorio del proyecto que deseas versionar.
+- Ejecuta el siguiente comando:
+  
+```
+git init
+```
+
+*Esto creará un nuevo repositorio Git en tu directorio y configurará los archivos necesarios para el control de versiones.*
+
+
+#### Agregar archivos al seguimiento de Git
+- Utiliza el comando git add para agregar los archivos que deseas versionar al repositorio.
+
+```
+git add .
+```
+
+#### Confirmar los cambios
+- Utiliza el comando git commit para confirmar los cambios agregados.
+
+```
+git commit -m "agrego navbar"
+```
+
+#### Recomendaciones:
+
+*Cada commit debe tener un mensaje descriptivo que explique los cambios realizados.*
+
+*Puedes usar el comando git status para ver qué archivos se han modificado y cuáles no están siendo rastreados por Git.*
+
+*Puedes usar el comando git log para ver el historial de commits de tu repositorio.*
