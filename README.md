@@ -80,3 +80,33 @@ git commit -m "agrego navbar"
 - Selecciona la rama a la que quieres subir los cambios.
 - Escribe un Commit y Push.
 
+#### 4. Crear la rama feature1, para luego hacer un cambio en un archivo de la rama feature1, guardar los cambios (commit), y empujar la rama feature1 al remoto. 
+
+#### Crear rama feature1:
+- Abre tu proyecto en Android Studio.
+- Asegúrate de que estés en la rama correcta .
+- Ve a VCS > Git > Branch > New Branch.
+- Escribe el nombre de la nueva rama ("feature1") y haz clic en "Aceptar".
+
+#### Realizar un cambio en un archivo:
+- Abre el archivo en el que deseas realizar el cambio.
+- Haz los cambios deseados.
+- Guarda el archivo.
+
+#### Confirmar los cambios (commit):
+- Ve a VCS > Git > Cambios sin confirmar.
+- Selecciona los archivos que deseas agregar al commit.
+- Escribe un mensaje descriptivo y Commit.
+
+#### Subir la rama feature1 al remoto:
+- Ve a VCS > Git > Remoto > Push.
+- Selecciona la rama "feature1" para subir.
+- Introduce el nombre del control remoto.
+- Escribe un mensaje de confirmación (opcional) y haz clic en Push.
+
+#### Ventajas:
+- Al crear una nueva rama, se crea una nueva línea de desarrollo independiente de la rama principal. Esto te permite trabajar en un cambio sin afectar el código de la rama principal.
+
+- Al realizar un cambio en un archivo y confirmarlo, se crea un snapshot del estado actual del proyecto. Esto te permite volver a este estado si es necesario.
+
+- Al subir la rama al remoto, se hace que los cambios estén disponibles para otros colaboradores que puedan trabajar en el mismo proyecto.
